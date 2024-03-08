@@ -1,0 +1,26 @@
+void main() {
+  String nome = 'Victor';
+  String generoj = 'esportivo';
+  String jogofav = 'F1 2020';
+  String plataforma = 'console';
+  
+  print('Olá, meu nome é ${nome}, meu gênero favorito de games é ${generoj} e meu jogo favorito é ${jogofav} pois tem os carros clássicos da F1 dos anos 80/90. A plataforma que jogo é ${plataforma}.'); 
+  
+  
+//
+  
+  
+  int nota1 = 8;
+  int nota2 = 7;
+  double media = ((nota1+nota2) / 2);
+  print('A média do aluno é ${media.toStringAsFixed(2)}');
+  
+
+ //
+  
+  double peso = 76.9;
+  double altura = 1.82;
+  double imc = (peso/(altura * altura));
+    
+  print('O sue IMC é ${imc.toStringAsFixed(2)}');
+}
